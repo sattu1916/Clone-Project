@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imbue:opsz,wght@10..100,100..900&family=Rubik+Scribble&display=swap');
+:root{
+    --main-bg-color : #1a7cc4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: "EB Garamond", serif;
+    
+    background-color: var(--main-bg-color);
+    /* color: white; */
+    /* border: 2px solid red; */
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* width: 24px; */
+}
+.logo img{
+    width: 120px;
+    padding: 0 35px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+nav ul li{
+    list-style: none;
+    padding: 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgba(227, 226, 232, 0.87);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 8px;
+    margin: 0 20px 0 60px;
+    padding: 0 10px;
+}
+.search button{
+    font-family: "EB Garamond", serif;
+    font-weight: 900;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+.slider{
+    margin: 12px 118px;
+    width: 1280px;
+    overflow: hidden;
+
+}
+.card{
+    max-width: 92vw;
+    margin: auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 21px;
+}
+.card h2{
+    font-family: "EB Garamond", serif;
+    /* margin: 13px 0; */
+}
+
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: "EB Garamond", serif;
+}
